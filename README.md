@@ -10,5 +10,4 @@ This is for self evaluation to make me accountable towards Competitive Coding
 
 You get this boii.. Let start and remember one thing :blush: :smiley:
 
-> “Don’t ever let someone tell you, you can’t do something. You got a dream, you got to protect it. People can’t do something themselves, they want to tell you you can’t do it.
-You want something, go get it. Period.”     by Chris Gardner
+### *“Don’t ever let someone tell you, you can’t do something. You got a dream, you got to protect it. People can’t do something themselves, they want to tell you you can’t do it. You want something, go get it. Period.”*
