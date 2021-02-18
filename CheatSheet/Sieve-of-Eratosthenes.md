@@ -4,7 +4,7 @@
 
 ``` c++
 void primeSieve(int n) {
-	int prime[n] = {0};
+	int prime[n+1] = {0};
 	// 0 for prime | 1 for composite
 
 	for (int i = 2; i <= n; i++) {
