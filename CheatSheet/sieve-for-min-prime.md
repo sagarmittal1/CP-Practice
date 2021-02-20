@@ -18,4 +18,14 @@ void sieve() {
 		}
 	}
 }
+
+// for finding the prime factors
+while (cin >> n) {
+		cout << "1";
+		while (n > 1) {
+			cout << " x " << ar[n];
+			n /= ar[n];
+		}
+		cout << endl;
+	}
 ```
