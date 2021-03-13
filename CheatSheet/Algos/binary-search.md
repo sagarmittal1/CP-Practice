@@ -3,6 +3,10 @@
 ## Time Complexity is O(log(n))
 ### It is implemented using divide & conquer basic imp. or by using recursion
 
+## **Always sort the array before using it..**
+
+> Binary Search can be applied to anyone which is monotonic
+
 Basic Implemantion
 ``` c++
 int binarySearch(int ar[], int x, int l, int h) {
