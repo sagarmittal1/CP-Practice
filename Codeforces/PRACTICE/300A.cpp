@@ -54,7 +54,7 @@ int32_t main()
 		v1.pop_back();
 		v3.push_back(x);
 
-		n1--;git 
+		n1--;
 		n3++;
 	}
 
