@@ -13,49 +13,26 @@ int32_t main()
 	int n; cin >> n;
 	int x[n], y[n];
 
-	for (int i = 0; i < n; i++) {
-		cin >> x[i] >> y[i];
-	}
+	for (int i = 0; i < n; i++) cin >> x[i] >> y[i];
 
 	int ans = 0;
 
 	for (int i = 0; i < n; i++) {
-		bool c1 = false, c2 = false, c3 = false, c4 = false;
-
+		int a1 = 0, a2 = 0, a3 = 0, a4 = 0;
+		
 		for (int j = 0; j < n; j++) {
-			if (x[i] < x[j] and y[i] == y[j]) {
-				c1 = true;
-				break;
-			}
+			if (x[i] < x[j] && y[i] == y[j]) a1 = 1;
+			if (x[i] > x[j] && y[i] == y[j]) a2 = 1;
+			if (x[i] == x[j] && y[i] < y[j]) a3 = 1;
+			if (x[i] == x[j] && y[i] > y[j]) a4 = 1;
 		}
 
-		for (int j = 0; j < n; j++) {
-			if (x[i] > x[j] and y[i] == y[j]) {
-				c2 = true;
-				break;
-			}
-		}
-
-		for (int j = 0; j < n; j++) {
-			if (x[i] == x[j] and y[i] < y[j]) {
-				c3 = true;
-				break;
-			}
-		}
-
-		for (int j = 0; j < n; j++) {
-			if (x[i] == x[j] and y[i] > y[j]) {
-				c4 = true;
-				break;
-			}
-		}
-
-		if (c1 && c2 && c3 && c4) {
+		if (a1 == 1 && a2 == 1 && a3 == 1 && a4 == 1) {
 			ans++;
 		}
 	}
 
-	cout << ans;
+	cout << ans << endl;
 
 	return 0;
 }
