@@ -6,7 +6,7 @@ This is for self evaluation to make me accountable towards Competitive Coding
 
 **GOAL**
 - To be consistent daily and solved at least 1 problem on DSA.
-- To start participating on various contests by 1 January.
+
 
 You get this boii.. Let start and remember one thing :blush: :smiley:
 
