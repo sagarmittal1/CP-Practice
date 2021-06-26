@@ -1,3 +1,6 @@
+// this questions taught me much as I found bugs that are crucial
+// After getting 4 wrong submissions ://
+
 #include <bits/stdc++.h>
 using namespace std;
 
